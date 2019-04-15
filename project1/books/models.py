@@ -8,7 +8,7 @@ from django.db import models
 class Book(models.Model):
     name = models.CharField("Наименование", max_length=100)
     null = True
-    blank = True
+    blank = False
 
     image = models.ImageField("Обложка", upload_to="images")
 
@@ -27,7 +27,9 @@ class Book(models.Model):
     serie = models.ForeignKey(
         "catalog.Serie",
         verbose_name="Серия",
-        on_delete=models.PROTECT
+        on_delete=models.PROTECT,
+        null=True,
+        blank=True,
     )
 
     genre = models.ManyToManyField(
@@ -69,6 +71,7 @@ class Book(models.Model):
     publish = models.ForeignKey(
         "catalog.Publish",
         verbose_name="Издательство",
+        related_name="books",
         on_delete=models.PROTECT
 
     )
