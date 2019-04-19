@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <table border="1">
+        <thead>
+            <tr>
+                <th>Название</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                {% for object in object_list %}
+
+                <tr>
+                    <td>
+                        <a href="{% url 'genre_detail_view' object.pk %}"> {{object.name}} </a><br>
+                    </td>
+                {% endfor %}
+                </tr>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>

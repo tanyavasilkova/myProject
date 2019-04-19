@@ -21,14 +21,21 @@ from catalog.views import *
 
 
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-    path('catalog/author/<int:pk>', AuthorDetail.as_view()),
-    path('catalog/serie/<int:pk>', SerieDetail.as_view()),
-    path('catalog/publish/<int:pk>', PublishDetail.as_view()),
-    path('catalog/genre/<int:pk>', GenreDetail.as_view()),
-    path('catalog/binding/<int:pk>', BindingDetail.as_view()),
+    path('catalog/author/<int:pk>', AuthorDetail.as_view(), name='author_detail_view'),
+    path('catalog/serie/<int:pk>', SerieDetail.as_view(), name='serie_detail_view'),
+    path('catalog/publish/<int:pk>', PublishDetail.as_view(), name='publish_detail_view'),
+    path('catalog/genre/<int:pk>', GenreDetail.as_view(), name='genre_detail_view'),
+    path('catalog/binding/<int:pk>', BindingDetail.as_view(), name='binding_detail_view'),
+
+    path('catalog/author', AuthorList.as_view()),
+    path('catalog/serie', SerieList.as_view()),
+    path('catalog/publish', PublishList.as_view()),
+    path('catalog/genre', GenreList.as_view()),
+    path('catalog/binding', BindingList.as_view()),
 
     path('', include('main.urls')),
     path('contacts/', include('contacts.urls')),

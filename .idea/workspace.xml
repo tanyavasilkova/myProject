@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="768209e9-4952-42a8-83ac-419a7bdbd60f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project1/templates/11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/templates/catalog/author_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/templates/catalog/bibding_detais.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/templates/catalog/genre_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/templates/catalog/publish_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/templates/catalog/serie_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/templates/catalog/author_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/templates/catalog/binding_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/templates/catalog/genre_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/templates/catalog/publish_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/templates/catalog/serie_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/books/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/books/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/catalog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/catalog/urls.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project1/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/catalog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/project1/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/myshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/myshop/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project1/myshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/myshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/11.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/author_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog/author_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/bibding_detais.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,53 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/author_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/bibding_detais.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/genre_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/publish_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/serie_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -112,21 +64,26 @@
         <option value="$PROJECT_DIR$/project1/books/models.py" />
         <option value="$PROJECT_DIR$/project1/catalog/serie_detail.html" />
         <option value="$PROJECT_DIR$/project1/myshop/settings.py" />
-        <option value="$PROJECT_DIR$/project1/templates/11.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/serie_detail.html" />
         <option value="$PROJECT_DIR$/project1/catalog/models.py" />
-        <option value="$PROJECT_DIR$/project1/catalog/views.py" />
-        <option value="$PROJECT_DIR$/project1/myshop/urls.py" />
-        <option value="$PROJECT_DIR$/project1/templates/catalog/author_detail.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/bibding_detais.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/genre_detail.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/publish_detail.html" />
+        <option value="$PROJECT_DIR$/project1/templates/11.html" />
+        <option value="$PROJECT_DIR$/project1/catalog/views.py" />
+        <option value="$PROJECT_DIR$/project1/templates/catalog/author_detail.html" />
+        <option value="$PROJECT_DIR$/project1/myshop/urls.py" />
+        <option value="$PROJECT_DIR$/project1/templates/catalog/author_list.html" />
+        <option value="$PROJECT_DIR$/project1/templates/catalog/binding_list.html" />
+        <option value="$PROJECT_DIR$/project1/templates/catalog/genre_list.html" />
+        <option value="$PROJECT_DIR$/project1/templates/catalog/publish_list.html" />
+        <option value="$PROJECT_DIR$/project1/templates/catalog/serie_list.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="161" />
-    <option name="y" value="78" />
+    <option name="x" value="334" />
+    <option name="y" value="136" />
     <option name="width" value="1234" />
     <option name="height" value="875" />
   </component>
@@ -148,6 +105,24 @@
               <item name="my_project_django" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_project_django" type="462c0819:PsiDirectoryNode" />
               <item name="project1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_project_django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_project_django" type="462c0819:PsiDirectoryNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="books" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_project_django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_project_django" type="462c0819:PsiDirectoryNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_project_django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_project_django" type="462c0819:PsiDirectoryNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my_project_django" type="b2602c69:ProjectViewProjectNode" />
@@ -264,9 +239,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="161" y="78" width="1234" height="875" extended-state="0" />
+    <frame x="334" y="136" width="1234" height="875" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19107744" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19444445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -286,34 +261,29 @@
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" weight="0.32947975" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19444445" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32971507" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3277311" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32913166" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33893558" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3277311" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" weight="0.32947975" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project1/main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-python/zadacha2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-python/chernovik.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project-python/zadacha3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/models/urls.py" />
-    <entry file="file://$PROJECT_DIR$/project1/models/views.py" />
     <entry file="file://$PROJECT_DIR$/project1/model/admin.py" />
     <entry file="file://$PROJECT_DIR$/project1/main/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -454,44 +424,33 @@
     <entry file="file://$PROJECT_DIR$/project1/images/1_lWQy6s5.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/11.html">
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/serie_publish_detail.html" />
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/bibding_detais.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/serie_publish_detail.html" />
     <entry file="file://$PROJECT_DIR$/project1/myshop/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
+        <state relative-caret-position="330">
           <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project1/catalog/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1403">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="282">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/catalog/views.py">
+    <entry file="file://$PROJECT_DIR$/project1/books/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state>
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/myshop/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-          <folding>
-            <element signature="e#630#662#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -499,21 +458,7 @@
     <entry file="file://$PROJECT_DIR$/project1/templates/catalog/author_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/bibding_detais.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/genre_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -528,6 +473,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/templates/11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/catalog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/binding_detail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/genre_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/serie_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/publish_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/binding_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/genre_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/author_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/myshop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="28" column="79" lean-forward="true" selection-start-line="28" selection-start-column="79" selection-end-line="28" selection-end-column="79" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
