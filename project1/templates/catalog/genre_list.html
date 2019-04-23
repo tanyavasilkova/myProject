@@ -2,29 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Genre</title>
 </head>
 <body>
-        <table border="1">
-        <thead>
-            <tr>
-                <th>Название</th>
-            </tr>
-        </thead>
+<table border="1">
+    <form action="", method="get">
+    {{ form }}
+    <button type="submit">Найти</button>
+</form>
+    <tr> <th>Название</th>  </tr>
+    <tr> {% for object in object_list %} <tr>
+    <td> <a href="{% url 'genre_detail_view' object.pk %}"> {{object.name}} </a> <br> </td>
+    {% endfor %} </tr>
+    </tr>
 
-        <tbody>
-            <tr>
-                {% for object in object_list %}
-
-                <tr>
-                    <td>
-                        <a href="{% url 'genre_detail_view' object.pk %}"> {{object.name}} </a><br>
-                    </td>
-                {% endfor %}
-                </tr>
-            </tr>
-        </tbody>
-
-    </table>
+    </tbody>
+</table>
 </body>
 </html>

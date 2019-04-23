@@ -5,29 +5,17 @@
     <title>Title</title>
 </head>
 <body>
-        <table border="1">
-        <thead>
-            <tr>
-                <th>Название</th><th>Описание</th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                {% for object in object_list %}
-
-                <tr>
-                    <td>
-                        <a href="{% url 'publish_detail_view' object.pk %}"> {{object.name}} </a><br>
-                    </td>
-                    <td>
-                        <a href="{% url 'publish_detail_view' object.pk %}"> {{object.description}} </a><br>
-                    </td>
-                {% endfor %}
-                </tr>
-            </tr>
-        </tbody>
-
+<form action="", method="get">
+    {{ form }}
+    <button type="Small button">Найти</button>
+</form>
+<table border="1">
+    <tr> <th><h3>Название</h3></th><th>Описание</th> </tr>
+    <tr>{% for object in object_list %}
+    <tr> <td> <a href="{% url 'publish_detail_view' object.pk %}"> <h4>{{object.name}} </h4></a><br> </td>
+    <td><a href="{% url 'publish_detail_view' object.pk %}"> <h3>{{object.description}} </h3></a><br></td>
+    {% endfor %} </tr>
+    </tr>
     </table>
 
 </body>

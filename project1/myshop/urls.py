@@ -31,11 +31,15 @@ urlpatterns = [
     path('catalog/genre/<int:pk>', GenreDetail.as_view(), name='genre_detail_view'),
     path('catalog/binding/<int:pk>', BindingDetail.as_view(), name='binding_detail_view'),
 
-    path('catalog/author', AuthorList.as_view()),
-    path('catalog/serie', SerieList.as_view()),
-    path('catalog/publish', PublishList.as_view()),
-    path('catalog/genre', GenreList.as_view()),
-    path('catalog/binding', BindingList.as_view()),
+    path('catalog/author', AuthorList.as_view(), name='author_list_view'),
+    path('catalog/serie', SerieList.as_view(), name='serie_list_view'),
+    path('catalog/publish', PublishList.as_view(), name='publish_list_view'),
+    path('catalog/genre', GenreList.as_view(), name='genre_list_view'),
+    path('catalog/binding', BindingList.as_view(), name='binding_list_view'),
+
+    path('allcatalogs', AllCatalogs.as_view()),
+
+    #path('catalog/serie/create', SerieCreateView.as_view()),
 
     path('', include('main.urls')),
     path('contacts/', include('contacts.urls')),

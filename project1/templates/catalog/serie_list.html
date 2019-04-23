@@ -2,33 +2,24 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Serie</title>
 </head>
-<br>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Название</th><th>Описание</th>
-            </tr>
-        </thead>
+<body>
+<form action="", method="get">
+    {{ form }}
+    <button type="submit">Найти</button>
+</form>
 
-        <tbody>
-            <tr>
-                {% for object in object_list %}
 
-                <tr>
-                    <td>
-                        <a href="{% url 'serie_detail_view' object.pk %}"> {{object.name}} </a><br>
-                    </td>
-                    <td>
-                        {{object.description}}
-                    </td>
-                {% endfor %}
-                </tr>
-            </tr>
-        </tbody>
+<table border="1">
+    <tr> <th><h2>Название</h2> </th><th><h2>Описание</h2></th></tr>
+    <tr> {% for object in object_list %}
+    <tr><td> <a href="{% url 'serie_detail_view' object.pk %}"> <h4>{{object.name}} </h4></a></td>
+    <td> {{object.description}} </td>
+        {% endfor %}
+    </tr> </tr>
 
-    </table>
+</table>
 
 </body>
 </html>

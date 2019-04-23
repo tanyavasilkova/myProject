@@ -5,28 +5,16 @@
     <title>Title</title>
 </head>
 <body>
-<br>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Название</th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                {% for object in object_list %}
-
-                <tr>
-                    <td>
-                        <a href="{% url 'author_detail_view' object.pk %}"> {{object.name}} </a><br>
-                        {% endfor %}
-                    </td>
-
-                </tr>
-            </tr>
-        </tbody>
-
-    </table>
+<form action="", method="get">
+    {{ form }}
+    <button type="submit">Найти</button>
+</form>
+<table border="1">
+    <tr><th>Название</th></tr>
+    <tr>{% for object in object_list %}<tr>
+    <td><a href="{% url 'author_detail_view' object.pk %}"> {{object.name}} </a><br>
+        {% endfor %}</td></tr>
+    </tr>
+</table>
 </body>
 </html>
