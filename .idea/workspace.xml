@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="768209e9-4952-42a8-83ac-419a7bdbd60f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project1/templates/catalog/AllCatalogs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/templates/catalog/author_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/templates/catalog/binding_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/templates/catalog/genre_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/templates/catalog/publish_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/templates/catalog/serie_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/catalog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/catalog/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/catalog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project1/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/catalog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/project1/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project1/myshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/myshop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/author_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog/author_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/binding_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog/binding_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/genre_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog/genre_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/publish_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog/publish_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/serie_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog/serie_list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,58 +20,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="my_project_django" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/serie_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/publish_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/genre_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/binding_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/author_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project1/catalog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="315">
+              <caret line="115" column="23" lean-forward="true" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="25" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -79,37 +38,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/serie_detail.html">
+        <entry file="file://$PROJECT_DIR$/project1/catalog/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="398">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/publish_detail.html">
+        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/author_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state>
+              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/genre_detail.html">
+        <entry file="file://$PROJECT_DIR$/project1/catalog/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="-1166">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/binding_detail.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project1/myshop/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
+            <state relative-caret-position="407">
+              <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+              <folding>
+                <element signature="e#630#662#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,7 +125,6 @@
         <option value="$PROJECT_DIR$/project1/catalog/serie_detail.html" />
         <option value="$PROJECT_DIR$/project1/myshop/settings.py" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/serie_detail.html" />
-        <option value="$PROJECT_DIR$/project1/catalog/models.py" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/bibding_detais.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/genre_detail.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/publish_detail.html" />
@@ -165,24 +132,29 @@
         <option value="$PROJECT_DIR$/project1/templates/catalog/author_detail.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/AllCatalog.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/AllCatalogs.html" />
-        <option value="$PROJECT_DIR$/project1/catalog/forms.py" />
         <option value="$PROJECT_DIR$/project1/catalog/template/form_search.html" />
         <option value="$PROJECT_DIR$/project1/catalog/template/serie_list.html" />
-        <option value="$PROJECT_DIR$/project1/templates/catalog/serie_form.html" />
-        <option value="$PROJECT_DIR$/project1/myshop/urls.py" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/genre_list.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/author_list.html" />
-        <option value="$PROJECT_DIR$/project1/catalog/views.py" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/binding_list.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/publish_list.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/serie_list.html" />
+        <option value="$PROJECT_DIR$/project1/templates/catalog/serie_form.html" />
+        <option value="$PROJECT_DIR$/project1/templates/catalog/genre_form.html" />
+        <option value="$PROJECT_DIR$/project1/templates/catalog/publish_form.html" />
+        <option value="$PROJECT_DIR$/project1/templates/catalog/binding_form.html" />
+        <option value="$PROJECT_DIR$/project1/catalog/models.py" />
+        <option value="$PROJECT_DIR$/project1/templates/catalog/author_form.html" />
+        <option value="$PROJECT_DIR$/project1/myshop/urls.py" />
+        <option value="$PROJECT_DIR$/project1/catalog/forms.py" />
+        <option value="$PROJECT_DIR$/project1/catalog/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="80" />
+    <option name="x" value="67" />
     <option name="y" value="27" />
-    <option name="width" value="1374" />
+    <option name="width" value="1221" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -191,7 +163,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,6 +185,12 @@
               <item name="my_project_django" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_project_django" type="462c0819:PsiDirectoryNode" />
               <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_project_django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_project_django" type="462c0819:PsiDirectoryNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -227,6 +204,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,7 +302,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555705235587</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Поиск в справочниках">
+      <created>1556041051595</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556041051595</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Поиск в справочниках">
+      <created>1556041119699</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556041119699</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -337,21 +329,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="80" y="27" width="1374" height="1000" extended-state="0" />
-    <editor active="true" />
+    <frame x="67" y="27" width="1221" height="1000" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18222892" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7638191" visible="true" weight="0.18893617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.2361809" side_tool="true" weight="0.18553191" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32971507" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32896304" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3277311" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32913166" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28843862" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29916567" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3277311" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -384,27 +375,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="List view" />
-    <option name="LAST_COMMIT_MESSAGE" value="List view" />
+    <MESSAGE value="Поиск в справочниках" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поиск в справочниках" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project1/main/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/book/urls.py" />
-    <entry file="file://$PROJECT_DIR$/project1/book/views.py" />
-    <entry file="file://$PROJECT_DIR$/project1/main/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project1/book/models.py" />
     <entry file="file://$PROJECT_DIR$/project1/catalog/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -546,31 +520,6 @@
     <entry file="file://$PROJECT_DIR$/project1/catalog/template/serie_form.py" />
     <entry file="file://$PROJECT_DIR$/project1/catalog/template/serie_form.html" />
     <entry file="file://$PROJECT_DIR$/project1/catalog/template/serie_list.html" />
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/serie_form.html" />
-    <entry file="file://$PROJECT_DIR$/project1/catalog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/myshop/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="33" column="71" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
-          <folding>
-            <element signature="e#630#662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/catalog/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project1/templates/catalog/publish_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -578,41 +527,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/genre_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/serie_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project1/templates/catalog/author_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/binding_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/catalog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -633,14 +551,106 @@
     <entry file="file://$PROJECT_DIR$/project1/templates/catalog/genre_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project1/templates/catalog/binding_detail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/binding_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/genre_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/serie_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/genre_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/binding_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/publish_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/serie_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/catalog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1166">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/myshop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/author_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/catalog/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/catalog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="115" column="23" lean-forward="true" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

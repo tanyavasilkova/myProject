@@ -39,7 +39,17 @@ urlpatterns = [
 
     path('allcatalogs', AllCatalogs.as_view()),
 
-    #path('catalog/serie/create', SerieCreateView.as_view()),
+    path('catalog/author/create/', AuthorCreateView.as_view()),
+    path('catalog/serie/create', SerieCreateView.as_view()),
+    path('catalog/publish/create/', PublishCreateView.as_view()),
+    path('catalog/genre/create/', GenreCreateView.as_view()),
+    path('catalog/binding/create', BindingCreateView.as_view()),
+
+    path('catalog/serie/update/<int:pk>', SerieUpdateView.as_view()),
+    path('catalog/author/update/<int:pk>', AuthorUpdateView.as_view()),
+    path('catalog/publish/update/<int:pk>', PublishUpdateView.as_view()),
+    path('catalog/genre/update/<int:pk>', GenreUpdateView.as_view()),
+    path('catalog/binding/update/<int:pk>', BindingUpdateView.as_view()),
 
     path('', include('main.urls')),
     path('contacts/', include('contacts.urls')),

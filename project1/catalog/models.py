@@ -1,8 +1,12 @@
 from django.db import models
+from django.urls import reverse_lazy
 
 
 class Author(models.Model):
     name = models.CharField("Автор", max_length=100)
+
+    def get_absolute_url(self):
+        return reverse_lazy("author_detail_view", kwargs={'pk': self.pk})
 
     def __str__(self):
         return self.name
@@ -18,6 +22,9 @@ class Serie(models.Model):
     name = models.CharField("Серия", max_length=100)
     description = models.TextField("Описание")
 
+    def get_absolute_url(self):
+        return reverse_lazy("serie_list_view")
+
     def __str__(self):
         return self.name
 
@@ -30,6 +37,9 @@ class Publish(models.Model):
     name = models.CharField("Издательство", max_length=30)
     description = models.CharField("Город", max_length=30)
 
+    def get_absolute_url(self):
+        return reverse_lazy('publish_detail_view', kwargs={'pk': self.pk})
+
     def __str__(self):
         return self.name
 
@@ -41,6 +51,9 @@ class Publish(models.Model):
 class Genre(models.Model):
     name = models.CharField("Жанр", max_length=30)
 
+    def get_absolute_url(self):
+        return reverse_lazy('genre_detail_view', kwargs={'pk': self.pk})
+
     def __str__(self):
         return self.name
 
@@ -51,6 +64,9 @@ class Genre(models.Model):
 
 class Binding(models.Model):
     name = models.CharField("Переплет", max_length=30)
+
+    def get_absolute_url(self):
+        return reverse_lazy('binding_list_view')
 
     def __str__(self):
         return self.name
