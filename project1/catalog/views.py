@@ -3,8 +3,8 @@ from django.shortcuts import render
 # Create your views here.
 from django.http import HttpResponse
 from .models import *
-from django.views.generic import DetailView, ListView, TemplateView, CreateView, UpdateView
-from .forms import SearchForm, AuthorCreateForm, SerieCreateForm, PublishCreateForm, GenreCreateForm, BindingCreateForm, SerieUpdateForm, AuthorUpdateForm, PublishUpdateForm, GenreUpdateForm, BindingUpdateForm
+from django.views.generic import DetailView, ListView, TemplateView, CreateView, UpdateView, DeleteView
+from .forms import SearchForm, AuthorCreateForm, SerieCreateForm, PublishCreateForm, GenreCreateForm, BindingCreateForm
 
 class Search(ListView):
 
@@ -17,8 +17,7 @@ class Search(ListView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        f = SearchForm()
-        context["form"] = f
+        context["form"] = SearchForm()
         return context
 
 
@@ -33,17 +32,23 @@ class AuthorList(Search):
 class AuthorCreateView(CreateView):
     model = Author
     form_class = AuthorCreateForm
+    template_name = 'catalog_form.html'
 
 
 class AuthorUpdateView(UpdateView):
     model = Author
-    form_class = AuthorUpdateForm
+    form_class = AuthorCreateForm
+    template_name = 'catalog_form.html'
 
+
+class AuthorDeleteView(DeleteView):
+    model = Author
+    success_url = reverse_lazy('author_list_view')
+    template_name = 'catalog_confirm_delete.html'
 
 
 class SerieDetail(DetailView):
     model = Serie
-    template_name = '11.html'
 
 
 class SerieList(Search):
@@ -53,12 +58,24 @@ class SerieList(Search):
 class SerieCreateView(CreateView):
     model = Serie
     form_class = SerieCreateForm
+    template_name = 'catalog_form.html'
+
+    def get_success_url(self):
+        return reverse_lazy('serie_detail_view', kwargs={'pk': self.object.pk})
+
+
 
 
 class SerieUpdateView(UpdateView):
     model = Serie
-    form_class = SerieUpdateForm
+    form_class = SerieCreateForm
+    template_name = 'catalog_form.html'
 
+
+class SerieDeleteView(DeleteView):
+    model = Serie
+    success_url = reverse_lazy('serie_list_view')
+    template_name = 'catalog_confirm_delete.html'
 
 
 class PublishDetail(DetailView):
@@ -72,11 +89,24 @@ class PublishList(Search):
 class PublishCreateView(CreateView):
     model = Publish
     form_class = PublishCreateForm
+    template_name = 'catalog_form.html'
+
+
 
 
 class PublishUpdateView(UpdateView):
     model = Publish
-    form_class = PublishUpdateForm
+    form_class = PublishCreateForm
+    template_name = 'catalog_form.html'
+
+
+class PublishDeleteView(DeleteView):
+    model = Publish
+    success_url = reverse_lazy('publish_list_view')
+    template_name = 'catalog_confirm_delete.html'
+
+
+
 
 
 class GenreDetail(DetailView):
@@ -90,12 +120,18 @@ class GenreList(Search):
 class GenreCreateView(CreateView):
     model = Genre
     form_class = GenreCreateForm
-
+    template_name = 'catalog_form.html'
 
 class GenreUpdateView(UpdateView):
     model = Genre
-    form_class = GenreUpdateForm
+    form_class = GenreCreateForm
+    template_name = 'catalog_form.html'
 
+
+class GenreDeleteView(DeleteView):
+    model = Genre
+    success_url = reverse_lazy('genre_list_view')
+    template_name = 'catalog_confirm_delete.html'
 
 
 class BindingDetail(DetailView):
@@ -109,12 +145,19 @@ class BindingList(Search):
 class BindingCreateView(CreateView):
     model = Binding
     form_class = BindingCreateForm
+    template_name = 'catalog_form.html'
 
 
 class BindingUpdateView(UpdateView):
     model = Binding
-    form_class = BindingUpdateForm #(могу ли здесь написать BindingCreateForm,
-                                    #так тоже все работает# )
+    form_class = BindingCreateForm      #(могу ли здесь написать BindingCreateForm,
+    template_name = 'catalog_form.html'
+
+
+class BindingDeleteView(DeleteView):
+    model = Binding
+    success_url = reverse_lazy('binding_list_view')
+    template_name = 'catalog_confirm_delete.html'
 
 
 

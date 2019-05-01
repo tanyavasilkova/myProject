@@ -10,12 +10,22 @@
     {{ form }}
     <button type="submit">Найти</button>
 </form>
-    <table border="1">
-        <tr><th>Название</th></tr>
-        <tr>{% for object in object_list %}<tr>
-        <td><a href="{% url 'binding_detail_view' object.pk %}"> {{object.name}} </a><br></td>
-        {% endfor %}</tr>
-        </tr>
-    </table>
+
+<a href="{% url 'binding_create_view'%}"> Создать новый переплет </a></td>
+
+<table border="1">
+    <tr> <th>Название</th><th>Действие</th></tr>
+     <td>{% for object in object_list %}
+       <tr> <td><a href="{% url 'binding_detail_view' object.pk %}"> {{object.name}} </a></td>
+
+
+    <td><a href="{% url 'binding_detail_view' object.pk %}"> view </a>
+    <a href="{% url 'binding_update_view' object.pk %}"> update</a>
+    <a href="{% url 'binding_delete_view' object.pk %}"> delete</a></td>
+
+    {% endfor %}
+</tr>
+</table>
+
 </body>
 </html>

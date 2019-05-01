@@ -5,20 +5,26 @@
     <title>Serie</title>
 </head>
 <body>
+
 <form action="", method="get">
     {{ form }}
     <button type="submit">Найти</button>
 </form>
 
+<a href="{% url 'serie_create_view'%}"> Создать новую серию </a></td>
 
 <table border="1">
-    <tr> <th><h2>Название</h2> </th><th><h2>Описание</h2></th></tr>
-    <tr> {% for object in object_list %}
-    <tr><td> <a href="{% url 'serie_detail_view' object.pk %}"> <h4>{{object.name}} </h4></a></td>
-    <td> {{object.description}} </td>
-        {% endfor %}
-    </tr> </tr>
+    <tr> <th>Название</th><th>Описание</th><th>Действие</th></tr>
+     <td>{% for object in object_list %}
+       <tr> <td><a href="{% url 'serie_detail_view' object.pk %}"> {{object.name}} </a></td>
+           <td> {{object.description}}</td>
 
+    <td><a href="{% url 'serie_detail_view' object.pk %}"> view </a>
+    <a href="{% url 'serie_update_view' object.pk %}"> update</a>
+    <a href="{% url 'serie_delete_view' object.pk %}"> delete</a></td>
+
+    {% endfor %}
+</tr>
 </table>
 
 </body>

@@ -5,18 +5,26 @@
     <title>Genre</title>
 </head>
 <body>
-<table border="1">
-    <form action="", method="get">
+<form action="", method="get">
     {{ form }}
     <button type="submit">Найти</button>
 </form>
-    <tr> <th>Название</th>  </tr>
-    <tr> {% for object in object_list %} <tr>
-    <td> <a href="{% url 'genre_detail_view' object.pk %}"> {{object.name}} </a> <br> </td>
-    {% endfor %} </tr>
-    </tr>
 
-    </tbody>
+<a href="{% url 'genre_create_view'%}"> Создать новый жанр </a></td>
+
+<table border="1">
+    <tr> <th>Название</th><th>Действие</th></tr>
+     <td>{% for object in object_list %}
+       <tr> <td><a href="{% url 'genre_detail_view' object.pk %}"> {{object.name}} </a></td>
+
+
+    <td><a href="{% url 'genre_detail_view' object.pk %}"> view </a>
+    <a href="{% url 'genre_update_view' object.pk %}"> update</a>
+    <a href="{% url 'genre_delete_view' object.pk %}"> delete</a></td>
+
+    {% endfor %}
+</tr>
 </table>
+
 </body>
 </html>

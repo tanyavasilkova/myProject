@@ -7,16 +7,30 @@
 <body>
 <form action="", method="get">
     {{ form }}
-    <button type="Small button">Найти</button>
+    <button type="submit">Найти</button>
 </form>
+
+<a href="{% url 'publish_create_view'%}"> Создать новое издательство</a></td>
+
 <table border="1">
-    <tr> <th><h3>Название</h3></th><th>Описание</th> </tr>
-    <tr>{% for object in object_list %}
-    <tr> <td> <a href="{% url 'publish_detail_view' object.pk %}"> <h4>{{object.name}} </h4></a><br> </td>
-    <td><a href="{% url 'publish_detail_view' object.pk %}"> <h3>{{object.description}} </h3></a><br></td>
-    {% endfor %} </tr>
-    </tr>
-    </table>
+    <tr> <th>Название</th><th>Описание</th><th>Действие</th></tr>
+     <td>{% for object in object_list %}
+       <tr> <td><a href="{% url 'publish_detail_view' object.pk %}"> {{object.name}} </a></td>
+           <td> {{object.description}}</td>
+
+    <td><a href="{% url 'publish_detail_view' object.pk %}"> view </a>
+    <a href="{% url 'publish_update_view' object.pk %}"> update</a>
+    <a href="{% url 'publish_delete_view' object.pk %}"> delete</a></td>
+
+
+    {% endfor %}
+</tr>
+
+
+
+
+</table>
+
 
 </body>
 </html>

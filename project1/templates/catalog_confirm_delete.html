@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Delete</title>
 </head>
 <body>
 <form method="post" action="">
-    {%csrf_token%}
+    {% csrf_token%}
     {{form.as_p}}
-    <button type="submit">Сохранить</button>
-</form>
+    <button type="submit">Вы уверены?</button>
 </body>
 </html>

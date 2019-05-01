@@ -3,6 +3,7 @@ from django.db import models
 # Create your models here.
 
 from django.db import models
+from django.urls import reverse_lazy
 
 
 class Book(models.Model):
@@ -101,8 +102,13 @@ class Book(models.Model):
         auto_now_add=False
     )
 
+
+    def get_absolute_url(self):
+        return reverse_lazy("book_list_view")
+
     def __srt__(self):
         return self.name
+
     class Meta:
         verbose_name = "Книга"
         verbose_name_plural = "Книги"

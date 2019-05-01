@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="", method="get">
+    {{ form }}
+    <button type="submit">Найти</button>
+</form>
+
+<a href="{% url 'book_create_view'%}"> Создать новую книгу </a></td>
+
+<table border="1">
+    <tr> <th>Название</th><th>Действие</th></tr>
+     <td>{% for object in object_list %}
+       <tr> <td><a href="{% url 'book_detail_view' object.pk %}"> {{object.name}} </a></td>
+
+    <td><a href="{% url 'book_detail_view' object.pk %}"> view </a>
+    <a href="{% url 'book_update_view' object.pk %}"> update</a>
+    <a href="{% url 'book_delete_view' object.pk %}"> delete</a></td>
+
+    {% endfor %}
+</tr>
+</table>
+
+</body>
+</html>
