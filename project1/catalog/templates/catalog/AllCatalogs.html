@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %}  Словари {% endblock %}
+{% block content %}
+
+
+<table class="table table-primary" style="width: auto; background-color:#e0f9d9">
+<tr>
+    <th>Все словари</th><br>
+</tr>
+<tr>
+    <td> <a href="{% url 'author_list_view' %}"> Авторы </a> <br>  </td>
+</tr>
+<tr>
+    <td> <a href="{% url 'serie_list_view' %}"> Серии </a> <br>  </td>
+</tr>
+
+<tr>
+    <td> <a href="{% url 'publish_list_view' %}"> Издательства</a> <br>  </td>
+</tr>
+
+<tr>
+    <td> <a href="{% url 'genre_list_view' %}"> Жанры</a> <br>  </td>
+</tr>
+
+<tr>
+    <td> <a href="{% url 'binding_list_view' %}"> Переплет</a> <br>  </td>
+</tr>
+</table>
+{% endblock %}

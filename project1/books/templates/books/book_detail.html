@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% block title %}  Книги {% endblock %}
+{% block content %}
+
+
+<td><a href="{% url 'book_list_view'%}"> К списку книг </a></td>
+<table class="table table-bordered" style="width: auto; color: red" >
+    <tr class="table-primary"> <th>Наименование книги</th>
+        <th>Обложка</th>
+        <th>Стоимость</th>
+        <th> Автор</th>
+        <th>Серия</th>
+        <th>Жанр</th>
+        <th>Год издания</th>
+        <th>Количество страниц</th>
+        <th>Переплет</th>
+        <th>Формат</th>
+
+        <th>ISBN</th>
+        <th>Возрастные ограничения</th>
+        <th>Издательство</th>
+        <th>Наличие книг</th>
+        <th>Доступно для заказа</th>
+        <th>Рейтинг</th>
+        <th>Дата создания</th>
+        <th>Дата последнего изменения карточки</th>
+    </tr>
+    <tr class="table-info"> <td >{{object.name}}</td>
+        <td><img src="{{object.image.url}}" height="150" width="100"></td>
+        <td>{{object.price}}</td>
+
+        <td>{% for object in object.author.all%}
+            {{object}}
+        {% endfor %}</td>
+
+        <td>{{object.serie}}</td>
+
+        <td>{% for object in object.genre.all%}
+            {{object}}
+        {% endfor %}</td>
+
+        <td>{{object.year}}</td>
+        <td>{{object.numb_pages}}</td>
+
+        <td>{% for object in object.binding.all%}
+            {{object}}
+            {% endfor %}</td>
+
+        <td>{{object.format}}</td>
+        <td>{{object.isbn}}</td>
+        <td>{{object.age_restrictions}}</td>
+        <td>{{object.publish}}</td>
+
+        <td>{{object.books_in_stock}}</td>
+        <td>{{object.active}}</td>
+        <td>{{object.rating}}</td>
+        <td>{{object.date_of_entry}}</td>
+        <td>{{object.change_date}}</td>
+
+    </tr>
+
+    </table>
+
+
+{% endblock %}

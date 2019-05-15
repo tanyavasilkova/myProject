@@ -34,7 +34,7 @@ class BookCreateView(CreateView):
     template_name = 'catalog_form.html'
 
     def get_success_url(self):
-        return reverse_lazy('book_detail_view', kwargs={'pk': self.object.pk})
+        return reverse_lazy('book_list_view')
 
 
 class BookUpdateView(UpdateView):

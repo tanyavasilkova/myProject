@@ -11,7 +11,8 @@ class Book(models.Model):
     null = True
     blank = False
 
-    image = models.ImageField("Обложка", upload_to="images")
+    image = models.ImageField("Обложка", upload_to="media", null=True,
+        blank=True,)
 
     price = models.DecimalField(
         "Стоимость",

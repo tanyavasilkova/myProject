@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block title %}  Магазин книг {% endblock %}
+{% block content %}
+
+Привет, друг!
+<form action="", method="get">
+    {{ form }}
+    <button type="submit" class="btn btn-info">Найти</button>
+</form>
+
+{% for object in object_list %}
+
+<div class="card" style="width: 18rem;">
+    <a href="{% url 'book_detail_view' object.pk%}"> <img src="{{object.image.url}}" class="card-img-top" alt="...">
+ </a>
+ <div class="card-body">
+    <h5 class="card-title">{{object.name}}</h5>
+    <p class="card-text">Автор: {% for  object in object.author.all%}
+                 {{object}} {%endfor%}</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Цена: {{object.price}} р.</li>
+    <li class="list-group-item">Жанр: {% for  object in object.genre.all%}
+                 {{object}} {%endfor%}</li>
+    <li class="list-group-item"></li>
+  </ul>
+  <div class="card-body">
+    <h1><a href="#" style="color: blue" class="card-link"><i class="fas fa-cart-arrow-down"></i></a>
+</h1>
+  </div>
+</div>
+
+{% endfor %}
+
+{% endblock %}

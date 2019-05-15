@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %} Издательство {% endblock %}
+{% block content %}
+
+
+
+<a href="{% url 'publish_list_view'%}"> К списку </a></br>
+
+ <table class="table table-striped" style="width: auto" >
+     <tr><th>Издательство</th><th>Город</th></tr>
+    <tr><th>{{object.name}}</th> <th>{{object.description}}</th></tr>
+
+</table>
+
+{% endblock %}

@@ -4,7 +4,7 @@ from catalog.views import *
 
 urlpatterns = [
 
-    path('catalog/allcatalogs/', AllCatalogs.as_view()),
+    path('allcatalogs/', AllCatalogs.as_view(), name='allcatalogs_list_view'),
 
     path('author/', AuthorList.as_view(), name='author_list_view'),
     path('serie/', SerieList.as_view(), name='serie_list_view'),

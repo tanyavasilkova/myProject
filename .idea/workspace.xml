@@ -2,33 +2,219 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="768209e9-4952-42a8-83ac-419a7bdbd60f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project1/books/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/catalog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/templates/books/book_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my_project_django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_project_django.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/bootstrap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/compatibility.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/layout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/layout_slice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/accordion-group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/accordion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/betterform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/display_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/errors_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/baseinput.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/buttonholder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/checkboxselectmultiple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/checkboxselectmultiple_inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/div.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/field_errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/field_errors_block.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/field_with_buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/fieldset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/formactions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/help_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/help_text_and_errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/multifield.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/prepended_appended_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/radioselect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/radioselect_inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/tab-link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/layout/uneditable_input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/table_inline_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/uni_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/uni_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/whole_uni_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap/whole_uni_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/accordion-group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/accordion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/betterform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/display_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/errors_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/inputs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/baseinput.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/buttonholder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/checkboxselectmultiple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/checkboxselectmultiple_inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/div.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/field_errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/field_errors_block.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/field_with_buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/fieldset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/formactions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/help_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/help_text_and_errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/inline_field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/multifield.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/prepended_appended_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/radioselect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/radioselect_inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/tab-link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/layout/uneditable_input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/multifield.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/table_inline_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/uni_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/uni_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/whole_uni_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap3/whole_uni_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/accordion-group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/accordion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/betterform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/display_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/errors_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/inputs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/baseinput.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/buttonholder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/checkboxselectmultiple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/checkboxselectmultiple_inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/div.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/field_errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/field_errors_block.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/field_with_buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/fieldset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/formactions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/help_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/help_text_and_errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/inline_field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/multifield.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/prepended_appended_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/radioselect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/radioselect_inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/tab-link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/layout/uneditable_input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/table_inline_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/uni_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/uni_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/whole_uni_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/bootstrap4/whole_uni_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/uni_form/betterform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/uni_form/display_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/uni_form/errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/uni_form/errors_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/uni_form/field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/uni_form/field.strict.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/uni_form/layout/baseinput.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/uni_form/layout/buttonholder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/uni_form/layout/div.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/uni_form/layout/fieldset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/uni_form/layout/multifield.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/uni_form/multifield.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/uni_form/uni_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/uni_form/uni_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/uni_form/whole_uni_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templates/uni_form/whole_uni_formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_field.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/tests/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/tests/templates/crispy_render_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/tests/templates/custom_field_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/tests/templates/custom_form_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/tests/templates/custom_form_template_with_context.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/tests/test_dynamic_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/tests/test_form_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/tests/test_layout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/tests/test_layout_objects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/tests/test_settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/tests/test_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/tests/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/tests/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/tests/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_crispy_forms-1.7.2.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_crispy_forms-1.7.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_crispy_forms-1.7.2.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_crispy_forms-1.7.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_crispy_forms-1.7.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_crispy_forms-1.7.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_crispy_forms-1.7.2.dist-info/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/django_crispy_forms-1.7.2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/books/migrations/0008_auto_20190515_0144.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/books/migrations/0009_auto_20190515_0150.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/books/migrations/0010_auto_20190515_0152.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/books/migrations/0011_auto_20190515_0156.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/books/migrations/0012_auto_20190515_0204.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/books/templates/books/book_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/catalog/templates/catalog/author_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/catalog/templates/catalog/author_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/catalog/templates/catalog/binding_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/catalog/templates/catalog/binding_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/catalog/templates/catalog/genre_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/catalog/templates/catalog/genre_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/catalog/templates/catalog/publish_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/catalog/templates/catalog/publish_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/catalog/templates/catalog/serie_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/catalog/templates/catalog/serie_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/main/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/main/templates/main/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/media/images/Снимок экрана от 2019-05-15 01-16-27.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/media/media/1_lWQy6s5_vHa91lx.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/media/media/1_lWQy6s5_vHa91lx_zNB7nVT.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/media/media/Снимок_экрана_от_2019-05-15_01-16-27.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/reguirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/books/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/books/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project1/books/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/books/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/books/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/books/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project1/books/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/books/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/catalog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/catalog/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/catalog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/catalog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/project1/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/images/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/project1/media/images/1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/images/1_lWQy6s5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/project1/media/images/1_lWQy6s5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/images/1_lWQy6s5_9ccwLUZ.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/project1/media/images/1_lWQy6s5_9ccwLUZ.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/images/1_lWQy6s5_vHa91lx.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/project1/media/images/1_lWQy6s5_vHa91lx.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/myshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/myshop/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project1/myshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/myshop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/11.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/books/book_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/author_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog/author_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/author_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog/author_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/author_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog/author_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/binding_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog/binding_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/binding_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog/binding_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/genre_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog/genre_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/genre_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/genre_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog/genre_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/publish_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog/publish_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/publish_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog_confirm_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/publish_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog/publish_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/serie_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog/serie_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/serie_form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/serie_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog/serie_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/crispy_forms/templatetags/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/books/book_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/books/templates/books/book_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/books/book_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/AllCatalogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/catalog/templates/catalog/AllCatalogs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/author_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/author_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/author_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/binding_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/binding_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/binding_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/genre_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/genre_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/publish_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/publish_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/serie_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/catalog/serie_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/catalog_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog_confirm_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/templates/catalog_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/templates/catalog_form.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +227,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project1/books/urls.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project1/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="115">
+              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project1/main/models.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project1/main/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -54,76 +260,76 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/books/views.py">
+        <entry file="file://$PROJECT_DIR$/project1/main/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="20" />
+            <state relative-caret-position="253">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/templates/books/book_list.html">
+        <entry file="file://$PROJECT_DIR$/project1/main/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
-              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="69">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/serie_list.html">
+        <entry file="file://$PROJECT_DIR$/project1/main/tests.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project1/main/templates/main/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="621">
+              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/publish_list.html">
+        <entry file="file://$PROJECT_DIR$/project1/books/templates/books/book_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+            <state relative-caret-position="341">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/templates/books/book_detail.html">
+        <entry file="file://$PROJECT_DIR$/project1/books/templates/books/book_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+            <state relative-caret-position="391">
+              <caret line="17" column="70" lean-forward="true" selection-start-line="17" selection-start-column="69" selection-end-line="18" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/genre_list.html">
+        <entry file="file://$PROJECT_DIR$/project1/books/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/binding_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/templates/catalog/author_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+            <state relative-caret-position="115">
+              <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,29 +350,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project1/model/views.py" />
-        <option value="$PROJECT_DIR$/project1/model/urls.py" />
-        <option value="$PROJECT_DIR$/project1/model/models.py" />
-        <option value="$PROJECT_DIR$/project1/model/admin.py" />
-        <option value="$PROJECT_DIR$/project1/manage.py" />
-        <option value="$PROJECT_DIR$/project1/book/views.py" />
-        <option value="$PROJECT_DIR$/project1/book/urls.py" />
-        <option value="$PROJECT_DIR$/project1/book/models.py" />
-        <option value="$PROJECT_DIR$/project1/catalog/admin.py" />
-        <option value="$PROJECT_DIR$/project1/books/admin.py" />
-        <option value="$PROJECT_DIR$/project1/books/utils.py" />
-        <option value="$PROJECT_DIR$/project1/catalog/utils2.py" />
-        <option value="$PROJECT_DIR$/project1/catalog/utils.py" />
-        <option value="$PROJECT_DIR$/project1/catalog/serie_detail.html.py" />
-        <option value="$PROJECT_DIR$/project1/catalog/serie_detail.html" />
-        <option value="$PROJECT_DIR$/project1/myshop/settings.py" />
-        <option value="$PROJECT_DIR$/project1/templates/catalog/bibding_detais.html" />
-        <option value="$PROJECT_DIR$/project1/templates/catalog/AllCatalog.html" />
-        <option value="$PROJECT_DIR$/project1/templates/catalog/AllCatalogs.html" />
-        <option value="$PROJECT_DIR$/project1/catalog/template/form_search.html" />
-        <option value="$PROJECT_DIR$/project1/catalog/template/serie_list.html" />
-        <option value="$PROJECT_DIR$/project1/templates/catalog/serie_form.html" />
-        <option value="$PROJECT_DIR$/project1/templates/catalog/genre_form.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/publish_form.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/binding_form.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/author_form.html" />
@@ -174,8 +357,6 @@
         <option value="$PROJECT_DIR$/project1/templates/catalog/book_list.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/catalog_form.html" />
         <option value="$PROJECT_DIR$/project1/catalog/forms.py" />
-        <option value="$PROJECT_DIR$/project1/books/forms.py" />
-        <option value="$PROJECT_DIR$/project1/books/models.py" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/catalog_confirm_delete.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/serie_detail.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/publish_detail.html" />
@@ -183,8 +364,6 @@
         <option value="$PROJECT_DIR$/project1/templates/catalog/binding_detail.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/author_detail.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/serie_list.html" />
-        <option value="$PROJECT_DIR$/project1/catalog/urls.py" />
-        <option value="$PROJECT_DIR$/project1/myshop/urls.py" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/publish_list.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/genre_list.html" />
         <option value="$PROJECT_DIR$/project1/templates/catalog/binding_list.html" />
@@ -193,16 +372,43 @@
         <option value="$PROJECT_DIR$/project1/catalog/views.py" />
         <option value="$PROJECT_DIR$/project1/templates/books/book_list.html" />
         <option value="$PROJECT_DIR$/project1/templates/books/book_detail.html" />
-        <option value="$PROJECT_DIR$/project1/books/views.py" />
         <option value="$PROJECT_DIR$/project1/books/urls.py" />
+        <option value="$PROJECT_DIR$/project1/catalog/templates/catalog/genre_detail.html" />
+        <option value="$PROJECT_DIR$/project1/catalog/templates/catalog/binding_detail.html" />
+        <option value="$PROJECT_DIR$/project1/catalog/templates/catalog/author_detail.html" />
+        <option value="$PROJECT_DIR$/project1/catalog/templates/catalog/publish_detail.html" />
+        <option value="$PROJECT_DIR$/project1/catalog/templates/catalog/serie_detail.html" />
+        <option value="$PROJECT_DIR$/project1/catalog/templates/catalog/binding_list.html" />
+        <option value="$PROJECT_DIR$/project1/catalog/templates/catalog/serie_list.html" />
+        <option value="$PROJECT_DIR$/project1/catalog/templates/catalog/publish_list.html" />
+        <option value="$PROJECT_DIR$/project1/catalog/templates/catalog/author_list.html" />
+        <option value="$PROJECT_DIR$/project1/templates/catalog_confirm_delete.html" />
+        <option value="$PROJECT_DIR$/project1/catalog/templates/catalog/genre_list.html" />
+        <option value="$PROJECT_DIR$/project1/catalog/urls.py" />
+        <option value="$PROJECT_DIR$/project1/catalog/templates/catalog/AllCatalogs.html" />
+        <option value="$PROJECT_DIR$/project1/requirements.txt" />
+        <option value="$PROJECT_DIR$/project1/reguirements.txt" />
+        <option value="$PROJECT_DIR$/project1/myshop/settings.py" />
+        <option value="$PROJECT_DIR$/project1/books/forms.py" />
+        <option value="$PROJECT_DIR$/project1/books/views.py" />
+        <option value="$PROJECT_DIR$/project1/books/models.py" />
+        <option value="$PROJECT_DIR$/project1/templates/catalog_form.html" />
+        <option value="$PROJECT_DIR$/project1/books/templates/books/book_detail.html" />
+        <option value="$PROJECT_DIR$/project1/main/urls.py" />
+        <option value="$PROJECT_DIR$/project1/myshop/urls.py" />
+        <option value="$PROJECT_DIR$/project1/main/forms.py" />
+        <option value="$PROJECT_DIR$/project1/main/views.py" />
+        <option value="$PROJECT_DIR$/project1/books/templates/books/book_list.html" />
+        <option value="$PROJECT_DIR$/project1/main/templates/main/main.html" />
+        <option value="$PROJECT_DIR$/project1/templates/base.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="85" />
-    <option name="y" value="678" />
-    <option name="width" value="1663" />
-    <option name="height" value="1000" />
+    <option name="x" value="132" />
+    <option name="y" value="27" />
+    <option name="width" value="1549" />
+    <option name="height" value="1046" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -233,7 +439,16 @@
               <item name="my_project_django" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_project_django" type="462c0819:PsiDirectoryNode" />
               <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="books" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_project_django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_project_django" type="462c0819:PsiDirectoryNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="books" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="books" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my_project_django" type="b2602c69:ProjectViewProjectNode" />
@@ -245,21 +460,41 @@
               <item name="my_project_django" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_project_django" type="462c0819:PsiDirectoryNode" />
               <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my_project_django" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_project_django" type="462c0819:PsiDirectoryNode" />
               <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="books" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_project_django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_project_django" type="462c0819:PsiDirectoryNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_project_django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_project_django" type="462c0819:PsiDirectoryNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_project_django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_project_django" type="462c0819:PsiDirectoryNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my_project_django" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_project_django" type="462c0819:PsiDirectoryNode" />
               <item name="project1" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="catalog" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -271,7 +506,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/project1/catalog/template" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project1/media/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -279,12 +514,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project1/media" />
+      <recent name="$PROJECT_DIR$/project1/books/templates/books" />
+      <recent name="$PROJECT_DIR$/project1/catalog/templates/catalog" />
       <recent name="$PROJECT_DIR$/project1/templates" />
       <recent name="$PROJECT_DIR$/project1/templates/books" />
-      <recent name="$PROJECT_DIR$/project1/templates/catalog" />
-      <recent name="$PROJECT_DIR$/project1/catalog/template" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project1/media/images" />
       <recent name="$PROJECT_DIR$/project1/catalog/template" />
     </key>
   </component>
@@ -367,6 +604,10 @@
       <workItem from="1556604285135" duration="791000" />
       <workItem from="1556655378227" duration="5398000" />
       <workItem from="1556660817532" duration="19854000" />
+      <workItem from="1557756993107" duration="9016000" />
+      <workItem from="1557819530210" duration="1087000" />
+      <workItem from="1557835382683" duration="5896000" />
+      <workItem from="1557847263400" duration="27705000" />
     </task>
     <task id="LOCAL-00001" summary="List view">
       <created>1555705235587</created>
@@ -400,7 +641,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26818000" />
+    <option name="totallyTimeSpent" value="70522000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,20 +653,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="102" y="46" width="1663" height="1000" extended-state="0" />
+    <frame x="132" y="27" width="1549" height="1046" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7638191" visible="true" weight="0.1842919" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7638191" visible="true" weight="0.21490353" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.2361809" side_tool="true" weight="0.18553191" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32896304" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32844242" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32896304" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3277311" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32913166" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29916567" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.16836159" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3277311" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -439,18 +680,18 @@
       <window_info anchor="right" id="SciView" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7638191" visible="true" weight="0.2125535" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7638191" visible="true" weight="0.252588" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.2361809" side_tool="true" weight="0.18553191" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32844242" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32896304" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3277311" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32913166" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29916567" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.16836159" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3277311" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -474,24 +715,33 @@
     <option name="LAST_COMMIT_MESSAGE" value="CreateView, UpdateView" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project1/catalog/utils.py" />
-    <entry file="file://$PROJECT_DIR$/project1/catalog/serie_detail.html.py" />
-    <entry file="file://$PROJECT_DIR$/project1/db.sqlite3">
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/serie_publish_detail.html" />
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/bibding_detais.html" />
+    <entry file="file://$PROJECT_DIR$/project1/catalog/template/form_search.html" />
+    <entry file="file://$PROJECT_DIR$/project1/catalog/template/serie_form.py" />
+    <entry file="file://$PROJECT_DIR$/project1/catalog/template/serie_form.html" />
+    <entry file="file://$PROJECT_DIR$/project1/catalog/template/serie_list.html" />
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/serie_form.html" />
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/publish_form.html" />
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/django/template/loader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="371">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/contacts/views.py">
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/genre_form.html" />
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/book_list.html" />
+    <entry file="file://$PROJECT_DIR$/project1/templates/11.html" />
+    <entry file="file://$PROJECT_DIR$/project1/books/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="299">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/catalog/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/project1/contacts/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -503,58 +753,298 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/images/1.jpeg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/project1/main/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/images/1_lWQy6s5_9ccwLUZ.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/images/1_lWQy6s5.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/serie_publish_detail.html" />
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/bibding_detais.html" />
-    <entry file="file://$PROJECT_DIR$/project1/myshop/settings.py">
+    <entry file="file://$PROJECT_DIR$/project1/catalog/templates/catalog/author_form.html" />
+    <entry file="file://$PROJECT_DIR$/project1/catalog/templates/catalog/binding_form.html" />
+    <entry file="file://$PROJECT_DIR$/project1/catalog/templates/catalog/author_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+        <state>
+          <caret selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/catalog/template/form_search.html" />
-    <entry file="file://$PROJECT_DIR$/project1/catalog/template/serie_form.py" />
-    <entry file="file://$PROJECT_DIR$/project1/catalog/template/serie_form.html" />
-    <entry file="file://$PROJECT_DIR$/project1/catalog/template/serie_list.html" />
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/binding_form.html">
+    <entry file="file://$PROJECT_DIR$/project1/catalog/templates/catalog/publish_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#h3#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/catalog/templates/catalog/serie_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/catalog/templates/catalog/binding_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <caret line="8" selection-start-line="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/author_form.html">
+    <entry file="file://$PROJECT_DIR$/project1/catalog/templates/catalog/genre_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/serie_form.html" />
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/publish_form.html" />
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog_form.html" />
-    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/django/template/loader.py">
+    <entry file="file://$PROJECT_DIR$/project1/catalog/templates/catalog/binding_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="149">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#599#605#0" expanded="true" />
+            <element signature="e#605#611#0" expanded="true" />
+            <element signature="e#611#617#0" expanded="true" />
+            <element signature="e#695#701#0" expanded="true" />
+            <element signature="e#701#707#0" expanded="true" />
+            <element signature="e#707#713#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/main/urls.py">
+    <entry file="file://$PROJECT_DIR$/project1/catalog/templates/catalog/serie_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#664#670#0" expanded="true" />
+            <element signature="e#670#676#0" expanded="true" />
+            <element signature="e#676#682#0" expanded="true" />
+            <element signature="e#759#765#0" expanded="true" />
+            <element signature="e#765#771#0" expanded="true" />
+            <element signature="e#771#777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog_confirm_delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/catalog/templates/catalog/publish_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#640#646#0" expanded="true" />
+            <element signature="e#646#652#0" expanded="true" />
+            <element signature="e#652#658#0" expanded="true" />
+            <element signature="e#736#742#0" expanded="true" />
+            <element signature="e#742#748#0" expanded="true" />
+            <element signature="e#748#754#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/catalog/templates/catalog/genre_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#566#572#0" expanded="true" />
+            <element signature="e#572#578#0" expanded="true" />
+            <element signature="e#578#584#0" expanded="true" />
+            <element signature="e#660#666#0" expanded="true" />
+            <element signature="e#666#672#0" expanded="true" />
+            <element signature="e#672#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/catalog/templates/catalog/author_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="2" selection-start-line="12" selection-end-line="12" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#590#596#0" expanded="true" />
+            <element signature="e#596#602#0" expanded="true" />
+            <element signature="e#602#608#0" expanded="true" />
+            <element signature="e#684#690#0" expanded="true" />
+            <element signature="e#690#696#0" expanded="true" />
+            <element signature="e#696#702#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/catalog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <caret line="6" column="75" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="76" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/catalog/templates/catalog/AllCatalogs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/reguirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/catalog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/catalog/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/catalog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/myshop/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/templates/catalog_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/books/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/books/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/myshop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/books/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/books/templates/books/book_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="70" lean-forward="true" selection-start-line="17" selection-start-column="69" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/books/templates/books/book_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/books/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -562,218 +1052,43 @@
     <entry file="file://$PROJECT_DIR$/project1/main/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/genre_form.html">
+    <entry file="file://$PROJECT_DIR$/project1/main/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="69">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/books/models.py">
+    <entry file="file://$PROJECT_DIR$/project1/main/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/main/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1893">
-          <caret line="99" column="45" lean-forward="true" selection-start-line="99" selection-start-column="45" selection-end-line="99" selection-end-column="45" />
+        <state relative-caret-position="161">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/AllCatalogs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/catalog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="7" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/publish_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/genre_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/book_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/binding_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/author_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog_confirm_delete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/myshop/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#630#662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/catalog/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/books/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/serie_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/publish_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/genre_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/binding_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/11.html">
+    <entry file="file://$PROJECT_DIR$/project1/main/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/author_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/catalog/serie_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/catalog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="64" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="64" />
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/books/book_detail.html">
+    <entry file="file://$PROJECT_DIR$/project1/main/templates/main/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/catalog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="32" column="90" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="90" />
+        <state relative-caret-position="621">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="39" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/templates/books/book_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/books/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/books/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

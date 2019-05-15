@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block title %}  Список книг {% endblock %}
+{% block content %}
+
+<form action="", method="get">
+    {{ form }}
+    <button type="submit" class="btn btn-info">Найти</button>
+</form>
+
+<a href="{% url 'book_create_view'%}"> Создать новую книгу </a></td>
+
+<table class="table table-primary" style="width: auto; background-color: #fafadc">
+    <tr> <th>Название книги</th> <th>Автор</th> <th>Действие</th></tr>
+     {% for object in object_list %}
+
+         <tr> <td><a href="{% url 'book_detail_view' object.pk %}"> {{object.name}} </a></td>
+
+             <td><a href="{% url 'author_detail_view' object.pk %}"> {% for  object in object.author.all%}
+                 {{object}} {%endfor%}</a></td>
+
+
+             <td><a href="{% url 'book_detail_view' object.pk %}"> <i class="fas fa-eye"> </i></a>&nbsp;&nbsp;&nbsp;
+
+             <a href="{% url 'book_update_view' object.pk %}"> <i class="fas fa-pencil-alt"> </i></a>&nbsp;&nbsp;&nbsp;
+
+                 <a href="{% url 'book_delete_view' object.pk %}"> <i class="far fa-trash-alt"></i></a></td>
+
+    {% endfor %}
+</tr>
+</table>
+
+{% endblock %}

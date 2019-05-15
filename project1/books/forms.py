@@ -10,4 +10,20 @@ class SearchForm(forms.Form):
 class BookCreateForm(ModelForm):
     class Meta:
         model = Book
-        fields = ('name',)
+        fields = (
+            'name',
+            'image',
+            'price',
+            'author',
+            'serie',
+            'genre',
+            'year',
+            'numb_pages',
+            'binding',
+            'format',
+            'isbn',
+            'age_restrictions',
+            'publish',
+            'books_in_stock',
+            'active',
+        )

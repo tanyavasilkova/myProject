@@ -1,14 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<form method="post" action="">
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title %}  Сохранение {% endblock %}
+{% block content %}
+
+
+<form enctype="multipart/form-data" method="post" action="" style="width: 350px">
     {% csrf_token%}
-    {{form.as_p}}
-    <button type="submit">Сохранить</button>
+    {{form|crispy}}
+    <button type="submit"  class="btn btn-outline-info" >Сохранить</button>
 </form>
-</body>
-</html>
+
+
+
+{% endblock %}

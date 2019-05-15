@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}  Переплет {% endblock %}
+{% block content %}
+
+
+
+<a href="{% url 'genre_list_view'%}"> К списку </a></br>
+<table class="table table-striped" style="color: darkblue" style="width: auto" >
+    <tr><th>{{object.name}}</th></tr>
+
+</table>
+
+
+{% endblock %}
