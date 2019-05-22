@@ -24,12 +24,12 @@ from . import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-
-    path('', include('main.urls')),
     path('contacts/', include('contacts.urls')),
 
     path('catalog/', include('catalog.urls')),
     path('book/', include('books.urls')),
     path('main/', include('main.urls')),
+    path('cart/', include('cart.urls')),
+    path('order/', include('order.urls')),
 
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

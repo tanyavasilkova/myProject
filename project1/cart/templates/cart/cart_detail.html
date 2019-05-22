@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title %}Оформление заказа{% endblock %}
+{% block content %}
+
+Оформление заказа<br>
+
+<table class="table table-bordered" style="background-color: #ffffea; color: #661c97">
+    <tr>
+      <th scope="col">Название книги</th>
+      <th scope="col">Автор</th>
+      <th scope="col">Цена</th>
+      <th scope="col">Количество</th>
+      <th scope="col">Стоимость книг</th>
+      <th scope="col">Удалить</th>
+    </tr>
+{% for object in cart.incart.all %}
+    <tr> <td>{{object.book.name}}</td>
+      <td>{{object.book.author}}</td>
+      <td>{{object.book.price}}</td>
+      <td>{{object.quantity}}</td>
+      <td>{{ object.price_total }}</td>
+      <td> </td>
+    </tr>{%endfor%}
+
+    <tr><th>Итого</th><th></th><th></th><th>{{ object.book_in_cart_count }} шт.</th>
+        <th>{{ object.total_price }} BYN</th> <th></th> </tr>
+</table><br>
+<th>Информация для заказа</th>
+    <div>{% if object.book_in_cart_count > 0 %}
+        <form action="{% url 'order-create' %}" method="post">
+            {% csrf_token %}
+            {{ form|crispy }}
+            <button type="submit" class="btn btn-primary btn-lg" style="background-color: #3b0c76">Оформить</button>
+        </form> {% endif %}
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title %}{% endblock %}
+{% block content %}
+
+
+<form method="post" action="">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <input type="hidden" name="next" value="{{next}}">
+    <button type="submit" class="btn btn-primary btn-lg" style="background-color: #3b0c76" >Добавить в корзину</button>
+</form>
+
+
+{% endblock %}
