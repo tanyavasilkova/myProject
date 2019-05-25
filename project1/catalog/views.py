@@ -5,6 +5,8 @@ from django.http import HttpResponse
 from .models import *
 from django.views.generic import DetailView, ListView, TemplateView, CreateView, UpdateView, DeleteView
 from .forms import SearchForm, AuthorCreateForm, SerieCreateForm, PublishCreateForm, GenreCreateForm, BindingCreateForm
+from  django.contrib.auth.mixins import PermissionRequiredMixin
+
 
 class Search(ListView):
 
@@ -51,8 +53,10 @@ class SerieDetail(DetailView):
     model = Serie
 
 
-class SerieList(Search):
+class SerieList(PermissionRequiredMixin, Search):
+    #permission_required = ''
     model = Serie
+
 
 
 class SerieCreateView(CreateView):
@@ -72,7 +76,8 @@ class SerieUpdateView(UpdateView):
     template_name = 'catalog_form.html'
 
 
-class SerieDeleteView(DeleteView):
+class SerieDeleteView(PermissionRequiredMixin, DeleteView):
+    permission_required = 'contenttypes.delete_contenttypes'
     model = Serie
     success_url = reverse_lazy('serie_list_view')
     template_name = 'catalog_confirm_delete.html'

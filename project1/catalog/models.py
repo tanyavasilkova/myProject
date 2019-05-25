@@ -31,6 +31,7 @@ class Serie(models.Model):
     class Meta:
         verbose_name = "Серия"
         verbose_name_plural = "Серии"
+        permissions = ['catalog', 'can delete serie']
 
 
 class Publish(models.Model):

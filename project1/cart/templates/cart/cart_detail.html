@@ -16,7 +16,7 @@
     </tr>
 {% for object in cart.incart.all %}
     <tr> <td>{{object.book.name}}</td>
-      <td>{{object.book.author}}</td>
+      <td>{%for object in object.book.author.all%} {{object}} {% endfor %}</td>
       <td>{{object.book.price}}</td>
       <td>{{object.quantity}}</td>
       <td>{{ object.price_total }}</td>
