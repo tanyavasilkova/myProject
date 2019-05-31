@@ -1,11 +1,11 @@
-from django.shortcuts import render
+#from django.shortcuts import render
 
 # Create your views here.
 from django.http import HttpResponse
 from .models import *
 from django.views.generic import DetailView, ListView, TemplateView, CreateView, UpdateView, DeleteView
 from .forms import SearchForm, AuthorCreateForm, SerieCreateForm, PublishCreateForm, GenreCreateForm, BindingCreateForm
-from  django.contrib.auth.mixins import PermissionRequiredMixin
+#from django.contrib.auth.mixins import PermissionRequiredMixin
 
 
 class Search(ListView):
@@ -17,7 +17,6 @@ class Search(ListView):
             return gs.filter(name__startswith=search)
         return gs
 
-    def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context["form"] = SearchForm()
         return context
@@ -49,14 +48,13 @@ class AuthorDeleteView(DeleteView):
     template_name = 'catalog_confirm_delete.html'
 
 
+
 class SerieDetail(DetailView):
     model = Serie
 
-
-class SerieList(PermissionRequiredMixin, Search):
+class SerieList(Search): #PermissionRequiredMixin,
     #permission_required = ''
     model = Serie
-
 
 
 class SerieCreateView(CreateView):
@@ -68,19 +66,18 @@ class SerieCreateView(CreateView):
         return reverse_lazy('serie_detail_view', kwargs={'pk': self.object.pk})
 
 
-
-
 class SerieUpdateView(UpdateView):
     model = Serie
     form_class = SerieCreateForm
     template_name = 'catalog_form.html'
 
 
-class SerieDeleteView(PermissionRequiredMixin, DeleteView):
-    permission_required = 'contenttypes.delete_contenttypes'
+class SerieDeleteView(DeleteView): #PermissionRequiredMixin
+    #permission_required = 'contenttypes.delete_contenttypes'
     model = Serie
     success_url = reverse_lazy('serie_list_view')
     template_name = 'catalog_confirm_delete.html'
+
 
 
 class PublishDetail(DetailView):
@@ -126,6 +123,7 @@ class GenreCreateView(CreateView):
     model = Genre
     form_class = GenreCreateForm
     template_name = 'catalog_form.html'
+
 
 class GenreUpdateView(UpdateView):
     model = Genre

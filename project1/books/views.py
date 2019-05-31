@@ -47,7 +47,5 @@ class BookDeleteView(DeleteView):
     template_name = 'catalog_confirm_delete.html'
 
 
-
-
 def index(request):
     return HttpResponse("Книги")
