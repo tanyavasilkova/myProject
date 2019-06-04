@@ -7,7 +7,7 @@ from order.models import OrderStatus
 from order.forms import CheckoutOrderForm
 
 
-new_order_status = OrderStatus.objects.get(pk=1)
+#new_order_status = OrderStatus.objects.get(pk=1)
 
 
 class AddBookToCart(UpdateView):
@@ -60,7 +60,7 @@ class CartDetail(DetailView):
         context = super().get_context_data(**kwargs)
         checkout_form = CheckoutOrderForm()
         checkout_form.fields['cart'].initial = self.object
-        checkout_form.fields['status'].initial = new_order_status
+        #checkout_form.fields['status'].initial = new_order_status
         context['form'] = checkout_form
         return context
 

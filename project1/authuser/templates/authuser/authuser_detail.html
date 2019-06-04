@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title %} {% endblock %}
+{% block content %}
+
+Личный кабинет</br>
+
+<table class="table table-bordered" style="background-color: #ffffea; color: #661c97">
+    <tr><th scope="col">ЛОГИН</th><td>{{user}}</td></tr>
+    <tr><th scope="col">Эл.почта</th><td>{{object.email}}</td></tr>
+    <tr><th scope="col">Имя</th><td>{{object.first_name}}</td></tr>
+    <tr><th scope="col">Фамилия</th><td>{{object.last_name}}</td></tr>
+    <tr><th scope="col">Аватарка</th><td>
+         {% if object.authuser.avatar%}
+        <img src="{{object.authuser.avatar.url}}" height="150" width="100">{% else %}
+        <img src="/media/media/без аватарки.jpeg">{% endif %}</td></tr>
+    <tr><th scope="col">Телефон</th><td>{{object.authuser.phone}}</td></tr>
+    <tr><th scope="col">Страна</th><td>{{object.authuser.country}}</td></tr>
+    <tr><th scope="col">Город</th><td>{{object.authuser.city}}</td></tr>
+    <tr><th scope="col">Индекс</th><td>{{object.authuser.index}}</td></tr>
+    <tr><th scope="col">Адрес1</th><td>{{object.authuser.address1}}</td></tr>
+    <tr><th scope="col">Адрес2</th><td>{{object.authuser.address2}}</td></tr>
+    <tr><th scope="col">Дополнительна информация</th><td>{{object.authuser.info}}</td></tr>
+</table>
+
+<a href=""> <i class="fas fa-pencil-alt"> РЕДАКТИРОВАТЬ</i></a>
+
+
+{% endblock %}
