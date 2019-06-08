@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title %} {% endblock %}
+{% block content %}
+
+
+
+<table class="table table-bordered" style="background-color: #ffffea; color: #661c97">
+    <tr>
+      <th scope="col">Дата заказа</th>
+      <th scope="col">Название книг</th>
+      <th scope="col">Авторы</th>
+      <th scope="col">Цена</th>
+      <th scope="col">Количество</th>
+      <th scope="col">Стоимость книг</th>
+      <th scope="col">Статус</th>
+      <th scope="col">Удалить заказ</th>
+
+    </tr>
+
+
+    {% for object in object_list %}
+    <tr>
+    {% if object.in_cart_or.all %}
+
+     <td>
+         {% for d in object.in_cart.all %}
+         {{ d.creation_date }}<br>
+         {% endfor %}
+     </td>
+
+     <td>
+         {% for a in object.in_cart.all %}
+         {{ a.book.name }}<br>
+         {% endfor %}
+     </td>
+
+     <td>
+         {% for a in object.in_cart.all %}
+
+         {% for i in object.book.author.all%} {{i}} {% endfor %}
+         {% endfor %}
+     </td>
+
+     <td>
+         {% for a in object.in_cart.all %}
+         {{a.book.price}}<br>
+         {% endfor %}
+     </td>
+
+     <td>
+         {% for d in object.in_cart.all %}
+         {{ d.quantity }}<br>
+         {% endfor %}
+     </td>
+
+     <td>
+         {{ object.total_price  }}<br>
+     </td>
+
+     <td>
+          {% for product in object.in_cart_or.all %}
+          {{ product.status }}{% endfor %}
+     </td>
+
+
+     <td>
+
+         <a href="{% url 'cart_order_delete_view' object.pk %}">
+          <i class="far fa-trash-alt"></i></a>
+
+     </td>
+
+    </tr>
+
+    {% endif %}
+    {% endfor %}
+
+</table>
+
+
+
+
+
+{% endblock %}
+

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}  Удаление {% endblock %}
+{% block content %}
+
+
+
+<form method="post" action="">
+    {% csrf_token%}
+    <p>Вы уверены в том, что желаете удалить "{{object.book}}"?</p>
+    {{form.as_p}}
+    <button type="submit" class="btn btn-danger"> УДАЛИТЬ </button>
+    <a href="{% url 'cart_detail_view' %}" >нет</a>
+</form>
+
+
+
+{% endblock %}

@@ -8,18 +8,19 @@
     <button type="submit" class="btn btn-info">Найти</button>
 </form>
 
-<a href="{% url 'genre_create_view'%}"> Создать новый жанр </a></td>
+
 
 <table class="table table-striped" style="width: auto">
-    <tr> <th>Название</th><th>Действие</th></tr>
+    <tr> <th>Название</th>{% if user.is_staff %}<th>Действие</th>{% endif %}</tr>
      <td>{% for object in object_list %}
        <tr> <td><a href="{% url 'genre_detail_view' object.pk %}"> {{object.name}} </a></td>
 
-
+{% if user.is_staff %}
     <td><a href="{% url 'genre_detail_view' object.pk %}"><i class="fas fa-eye"> </i></a>&nbsp;&nbsp;&nbsp;
     <a href="{% url 'genre_update_view' object.pk %}"> <i class="fas fa-pencil-alt"> </i></a>&nbsp;&nbsp;&nbsp;
     <a href="{% url 'genre_delete_view' object.pk %}"><i class="far fa-trash-alt"></i></a></td>
-
+<a href="{% url 'genre_create_view'%}"> Создать новый жанр </a></td>
+           {% endif %}
     {% endfor %}
 </tr>
 </table>

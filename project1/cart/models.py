@@ -16,14 +16,14 @@ class Cart(models.Model):
     @property
     def book_in_cart_count(self):
         total = 0
-        for book in self.incart.all():
+        for book in self.in_cart.all():
             total += book.quantity
         return total
 
     @property
     def total_price(self):
         total = 0
-        for book in self.incart.all():
+        for book in self.in_cart.all():
             total += book.price_total
         return total
 
@@ -34,7 +34,7 @@ class Cart(models.Model):
 
 class BookInCart(models.Model):
 
-    cart = models.ForeignKey(Cart, verbose_name="Корзина", related_name="incart", on_delete=models.CASCADE)
+    cart = models.ForeignKey(Cart, verbose_name="Корзина", related_name="in_cart", on_delete=models.CASCADE)
     book = models.ForeignKey(Book, related_name='book', on_delete=models.CASCADE)
     quantity = models.PositiveIntegerField('Количество', default=1)
     creation_date = models.DateTimeField("Дата и время создания", auto_now=False, auto_now_add=True)

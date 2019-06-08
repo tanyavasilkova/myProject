@@ -6,7 +6,8 @@ class OrderAdmin(admin.ModelAdmin):
     list_display = (
         'status',
         'creation_date',
-        'update_date'
+        'update_date',
+
     )
 
 

@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title %} {% endblock %}
+{% block content %}
+
+<table class="table table-bordered" style="background-color: #ffffea; color: #661c97">
+    <tr>
+      <th scope="col">Название книги</th>
+      <th scope="col">Автор</th>
+      <th scope="col">Цена</th>
+      <th scope="col">Количество</th>
+      <th scope="col">Стоимость книг</th>
+      <th scope="col">Удалить</th>
+    </tr>
+
+
+
+    <tr>  <td>{{object.name}}</td>
+        <td></td>
+
+      <td>{{object.book.price}</td>
+      <td>{{object.quantity}</td>
+      <td>{{ object.price_total }</td>
+      <td> 444444444</td>
+    </tr>
+
+
+    <tr><th>Итого</th><th></th><th></th><th></th>
+       <th>{{ object.total_price } BYN</th> <th></th> </tr>
+</table><br>
+
+{{object.phone}}
+
+{% for object in object.cart.in_cart_or.all %}
+{{object.book.name}}
+{% endfor %}
+
+
+
+{% endblock %}
+

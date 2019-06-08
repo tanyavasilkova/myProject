@@ -8,17 +8,20 @@
     <button type="submit" class="btn btn-info">Найти</button>
 </form>
 
-<a href="{% url 'author_create_view'%}"> Создать нового автора</a></td>
+
 
 <table class="table table-striped" style="width: auto">
-    <tr> <th>Название</th><th>Действие</th></tr>
+    <tr> <th>Название</th> {% if user.is_staff %}<th>Действие</th> {% endif %}</tr>
      <td>{% for object in object_list %}
        <tr> <td><a href="{% url 'author_detail_view' object.pk %}"> {{object.name}} </a></td>
 
-
+    {% if user.is_staff %}
     <td><a href="{% url 'author_detail_view' object.pk %}"> <i class="fas fa-eye"> </i></a>&nbsp;&nbsp;&nbsp;
     <a href="{% url 'author_update_view' object.pk %}"><i class="fas fa-pencil-alt"> </i></a>&nbsp;&nbsp;&nbsp;
     <a href="{% url 'author_delete_view' object.pk %}"> <i class="far fa-trash-alt"></i></a></td>
+    <a href="{% url 'author_create_view'%}"> Создать нового автора</a></td>
+     {% endif %}
+
 
     {% endfor %}
 </tr>

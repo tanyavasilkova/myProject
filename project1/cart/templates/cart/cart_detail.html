@@ -14,14 +14,18 @@
       <th scope="col">Стоимость книг</th>
       <th scope="col">Удалить</th>
     </tr>
-{% for object in cart.incart.all %}
+
+
+{% for object in cart.in_cart.all %}
     <tr> <td>{{object.book.name}}</td>
       <td>{%for object in object.book.author.all%} {{object}} {% endfor %}</td>
       <td>{{object.book.price}}</td>
       <td>{{object.quantity}}</td>
       <td>{{ object.price_total }}</td>
-      <td> </td>
+      <td> <a href="{% url 'cart_delete_view' object.pk %}">
+          <i class="far fa-trash-alt"></i></a></td></td>
     </tr>{%endfor%}
+
 
     <tr><th>Итого</th><th></th><th></th><th>{{ object.book_in_cart_count }} шт.</th>
         <th>{{ object.total_price }} BYN</th> <th></th> </tr>

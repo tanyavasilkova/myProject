@@ -3,63 +3,49 @@
 {% block content %}
 
 
-<td><a href="{% url 'book_list_view'%}"> К списку книг </a></td>
-<table class="table" style="width: auto; color: red; background-color: #661c97" >
-    <tr > <th>Наименование книги</th>
-        <th>Обложка</th>
-        <th>Стоимость</th>
-        <th> Автор</th>
-        <th>Серия</th>
-        <th>Жанр</th>
-        <th>Год издания</th>
-        <th>Количество страниц</th>
-        <th>Переплет</th>
-        <th>Формат</th>
-
-        <th>ISBN</th>
-        <th>Возрастные ограничения</th>
-        <th>Издательство</th>
-        <th>Наличие книг</th>
-        <th>Доступно для заказа</th>
-        <th>Рейтинг</th>
-        <th>Дата создания</th>
-        <th>Дата последнего изменения карточки</th>
-    </tr>
-    <tr class="table-info"> <td >{{object.name}}</td>
-        <td><img src="{{object.image.url}}" height="150" width="100"></td>
-        <td>{{object.price}}</td>
-
-        <td>{% for object in object.author.all%}
-            {{object}}
-        {% endfor %}</td>
-
-        <td>{{object.serie}}</td>
-
-        <td>{% for object in object.genre.all%}
-            {{object}}
-        {% endfor %}</td>
-
-        <td>{{object.year}}</td>
-        <td>{{object.numb_pages}}</td>
-
-        <td>{% for object in object.binding.all%}
-            {{object}}
-            {% endfor %}</td>
-
-        <td>{{object.format}}</td>
-        <td>{{object.isbn}}</td>
-        <td>{{object.age_restrictions}}</td>
-        <td>{{object.publish}}</td>
-
-        <td>{{object.books_in_stock}}</td>
-        <td>{{object.active}}</td>
-        <td>{{object.rating}}</td>
-        <td>{{object.date_of_entry}}</td>
-        <td>{{object.change_date}}</td>
-
-    </tr>
-
-    </table>
 
 
+<div class="card mb-3" style="width: 800px; height: 500px">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="{{object.image.url}}" height="300" width="200">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{object.name}}</h5>
+        <p class="card-text">
+
+<table>
+          <tr><th> Автор</th><td>{% for object in object.author.all%} {{object}} {% endfor %}</td></tr>
+
+          <tr> <th>Жанр</th><td>{% for object in object.genre.all%} {{object}} {% endfor %}</td></tr>
+          <tr><th>Год издания</th> <td>{{object.year}}</td> </tr>
+          <tr><th>Количество страниц</th><td>{{object.numb_pages}}</td></tr>
+          <tr><th>Переплет</th><td>{% for object in object.binding.all%} {{object}} {% endfor %}</td></tr>
+          <tr><th>Формат</th><td>{{object.format}}</td></tr>
+
+          <tr><th>ISBN</th><td>{{object.isbn}}</td></tr>
+          <tr><th>Возрастные ограничения</th><td>{{object.age_restrictions}}</td></tr>
+          <tr><th>Издательство</th><td>{{object.publish}}</td></tr>
+          <tr><th>Наличие книг</th><td>{{object.books_in_stock}}</td></tr>
+          <tr><th>Доступно для заказа</th><td>{{object.active}}</td></tr>
+          <tr><th>Рейтинг</th><td>{{object.rating}}</td></tr>
+          <tr><th>Дата создания</th><td>{{object.date_of_entry}}</td></tr>
+          <tr><th>Дата последнего изменения карточки</th><td>{{object.change_date}}</td></tr>
+
+          <tr><td><h3>{{object.price}} BYN</h3></td>
+
+
+              </p></table>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card-body">
+    <h1><a style="color: #661c97" href="{% url 'cart' object.pk %}?next=/main/" style="color: blue" class="card-link">
+        <i class="fas fa-cart-arrow-down">Положить в карзину</i></a>
+</h1>
+  </div>
 {% endblock %}

@@ -3,7 +3,15 @@
 {% block title %} {% endblock %}
 {% block content %}
 
-Личный кабинет</br>
+<h3>Личный кабинет</br></h3><a href="{% url 'auth_update_view'%}"> <i class="fas fa-pencil-alt"> РЕДАКТИРОВАТЬ</i></a><br>
+
+<button type="submit" STYLE="color: Window" class="btn btn-primary btn-lg btn-block">
+    <a href="{% url 'cart_list_view' %}">МОИ ЗАКАЗЫ</a></button>
+
+
+
+<!--<div class="card" style="width: 18rem;">-->
+<!--  <div class="card-body">-->
 
 <table class="table table-bordered" style="background-color: #ffffea; color: #661c97">
     <tr><th scope="col">ЛОГИН</th><td>{{user}}</td></tr>
@@ -13,7 +21,7 @@
     <tr><th scope="col">Аватарка</th><td>
          {% if object.authuser.avatar%}
         <img src="{{object.authuser.avatar.url}}" height="150" width="100">{% else %}
-        <img src="/media/media/без аватарки.jpeg">{% endif %}</td></tr>
+        <img src="/media/media/колобок.jpg">{% endif %}</td></tr>
     <tr><th scope="col">Телефон</th><td>{{object.authuser.phone}}</td></tr>
     <tr><th scope="col">Страна</th><td>{{object.authuser.country}}</td></tr>
     <tr><th scope="col">Город</th><td>{{object.authuser.city}}</td></tr>
@@ -22,8 +30,9 @@
     <tr><th scope="col">Адрес2</th><td>{{object.authuser.address2}}</td></tr>
     <tr><th scope="col">Дополнительна информация</th><td>{{object.authuser.info}}</td></tr>
 </table>
+<!--  </div>-->
 
-<a href=""> <i class="fas fa-pencil-alt"> РЕДАКТИРОВАТЬ</i></a>
-
+<!--</div>-->
 
 {% endblock %}
+

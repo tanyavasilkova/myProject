@@ -38,7 +38,7 @@ class BookCreateView(CreateView):
 class BookUpdateView(UpdateView):
     model = Book
     form_class = BookCreateForm
-    template_name = 'catalog_form.html'
+    template_name = 'update_form.html'
 
 
 class BookDeleteView(DeleteView):

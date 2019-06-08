@@ -1,11 +1,8 @@
-#from django.shortcuts import render
-
-# Create your views here.
 from django.http import HttpResponse
 from .models import *
 from django.views.generic import DetailView, ListView, TemplateView, CreateView, UpdateView, DeleteView
 from .forms import SearchForm, AuthorCreateForm, SerieCreateForm, PublishCreateForm, GenreCreateForm, BindingCreateForm
-#from django.contrib.auth.mixins import PermissionRequiredMixin
+from django.contrib.auth.mixins import PermissionRequiredMixin
 
 
 class Search(ListView):
@@ -17,6 +14,7 @@ class Search(ListView):
             return gs.filter(name__startswith=search)
         return gs
 
+    def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context["form"] = SearchForm()
         return context
@@ -28,32 +26,35 @@ class AuthorDetail(DetailView):
 
 class AuthorList(Search):
     model = Author
+    #permission_required = 'contenttypes.change_content types'
 
 
-class AuthorCreateView(CreateView):
+class AuthorCreateView(PermissionRequiredMixin, CreateView):
     model = Author
     form_class = AuthorCreateForm
     template_name = 'catalog_form.html'
+    permission_required = 'catalog.add'
 
 
-class AuthorUpdateView(UpdateView):
+class AuthorUpdateView(PermissionRequiredMixin, UpdateView):
     model = Author
     form_class = AuthorCreateForm
     template_name = 'catalog_form.html'
+    permission_required = 'catalog.change'
 
 
-class AuthorDeleteView(DeleteView):
+class AuthorDeleteView(PermissionRequiredMixin, DeleteView):
     model = Author
     success_url = reverse_lazy('author_list_view')
     template_name = 'catalog_confirm_delete.html'
-
+    permission_required = 'catalog.change'
 
 
 class SerieDetail(DetailView):
     model = Serie
 
-class SerieList(Search): #PermissionRequiredMixin,
-    #permission_required = ''
+
+class SerieList(Search):
     model = Serie
 
 

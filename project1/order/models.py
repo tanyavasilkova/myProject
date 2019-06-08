@@ -15,10 +15,27 @@ class OrderStatus(models.Model):
 
 
 class Order(models.Model):
-    cart = models.ForeignKey(Cart, verbose_name='Корзина', on_delete=models.PROTECT)
-    status = models.ForeignKey(OrderStatus, verbose_name='Статус заказа', on_delete=models.PROTECT)
-    name = models.CharField('ФИО', max_length=60)
-    phone = models.CharField('Контактный телефон', help_text='+', max_length=16)
+
+    cart = models.ForeignKey(
+        Cart,
+        verbose_name='Корзина',
+        related_name="in_cart_or",
+        on_delete=models.PROTECT)
+
+    status = models.ForeignKey(
+        OrderStatus,
+        verbose_name='Статус заказа',
+        on_delete=models.PROTECT)
+
+    name = models.CharField(
+        'ФИО',
+        max_length=60)
+
+    phone = models.CharField(
+        'Контактный телефон',
+        help_text='+',
+        max_length=16)
+
     email = models.EmailField('Электронная почта', null=True, blank=True, help_text='user@mail.com')
     delivery_address = models.TextField('Адрес доставки', null=True, blank=True)
     comments = models.TextField('Дополнительная информация', null=True, blank=True)
